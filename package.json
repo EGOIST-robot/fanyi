@@ -10,7 +10,8 @@
   "author": "afc163 <afc163@gmail.com>",
   "license": "MIT",
   "bin": {
-    "fanyi": "./bin/fanyi"
+    "fanyi": "./bin/fanyi",
+    "fy": "./bin/fanyi"
   },
   "keywords": [
     "translate",

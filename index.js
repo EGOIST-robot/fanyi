@@ -27,11 +27,11 @@ module.exports = function(word) {
   });
 
   // youdao
-  request.get(SOURCE.youdao + word, function (error, response, body) {
-    if (!error && response.statusCode == 200) {
-      var data = JSON.parse(entities.decode(body));
-      print.youdao(data);
-    }
-  });
+  // request.get(SOURCE.youdao + word, function (error, response, body) {
+  //   if (!error && response.statusCode == 200) {
+  //     var data = JSON.parse(entities.decode(body));
+  //     print.youdao(data);
+  //   }
+  // });
 
 };
